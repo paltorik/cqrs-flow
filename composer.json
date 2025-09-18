@@ -1,0 +1,24 @@
+{
+    "name": "paltorik/cqrs-flow",
+    "description": "CQRS CqrsFlow — Command Bus and Query Bus for Laravel with type safety and async handling",
+    "type": "library",
+    "version": "1.0.0",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Paltorik\\CqrsFlow\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Paltorik"
+        }
+    ],
+    "require": {
+        "php": ">=8.3",
+        "illuminate/support": "^12.29",
+        "illuminate/queue": "^12.29"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
